@@ -1,0 +1,134 @@
+<div id="fit">
+<div id="stage">
+  <header class="box">
+    <div class="brand" id="brand"></div>
+    <button id="bMusic" aria-label="Music on or off · Música"></button>
+    <button id="bVd" class="sq" aria-label="Volume down · Bajar volumen"></button>
+    <div id="volm" aria-hidden="true"></div>
+    <button id="bVu" class="sq" aria-label="Volume up · Subir volumen"></button>
+    <button id="bNap" aria-label="Nap mode · Modo siesta"></button>
+    <button id="bHome" aria-label="Welcome screen · Pantalla de bienvenida"></button>
+    <button id="bSet" aria-label="Teacher panel · Panel de la maestra"></button>
+    <button id="bFs" class="sq" aria-label="Fullscreen · Pantalla completa"></button>
+    <div id="date"></div>
+    <div id="clock"></div>
+  </header>
+
+  <main>
+    <section id="act" class="rb" aria-live="polite">
+      <div id="bar">
+        <button id="bPick"></button>
+        <button id="mode"></button>
+        <div id="next"></div>
+      </div>
+      <div id="row">
+        <button class="plain cast" id="c1" aria-label="Duck · Patito"></button>
+        <button class="plain" id="galb" aria-label="Show picture big · Ver imagen en grande"><div id="gal"><img id="art" alt=""><img id="art2" alt=""></div><div id="galdots"></div></button>
+        <button class="plain cast c2" id="c2" aria-label="Bear · Osito"></button>
+      </div>
+      <div id="en" class="rbw"></div>
+      <div id="es" class="es"></div>
+      <div id="prog"><span id="pgl"></span><div class="pb"><i id="pgb"></i></div><span id="pgr"></span></div>
+      <div id="guide">
+        <button id="gp" class="sq" aria-label="Previous step · Paso anterior"></button>
+        <div id="gc"><div id="gnum"></div><div id="gt"></div><div id="gd"></div></div>
+        <button id="gn"></button>
+        <button id="gx"></button>
+      </div>
+    </section>
+
+    <aside id="side">
+      <div class="box pan">
+        <div class="ph"><h3>LEARN <small>Aprender</small></h3><span class="sp"></span><span id="decks"></span>
+          <button id="lp" class="sq" aria-label="Previous card · Tarjeta anterior"></button><button id="ln" class="sq" aria-label="Next card · Tarjeta siguiente"></button></div>
+        <button class="plain" id="lcb" aria-label="Show card big · Ver tarjeta en grande"><div id="lc"></div></button>
+      </div>
+      <div class="box pan">
+        <div class="ph"><h3>EMOTIONS <small>Las emociones</small></h3><span class="sp"></span><button id="bEr"></button></div>
+        <div id="emo"></div>
+        <div id="feel"></div>
+      </div>
+      <div class="box pan">
+        <div class="ph"><h3>CLASSROOM RULES <small>Normas del salón</small></h3></div>
+        <div id="rules"></div>
+        <div id="rulel"></div>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="box">
+    <svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+    <div id="tick"></div>
+    <div id="zchip"><img id="zci" alt=""><div><b id="zce"></b><i id="zcs"></i></div></div>
+    <button id="bZones"></button>
+    <button id="bTimer"></button>
+    <button id="bClean"></button>
+    <button id="bWash"></button>
+  </footer>
+
+  <div id="nightfx" aria-hidden="true"><div id="moon"></div></div>
+
+  <!-- activity picker -->
+  <div class="ov" id="pk"><div class="dlg">
+    <h2>CHOOSE AN ACTIVITY <small>Elige la actividad</small></h2>
+    <div class="grid" id="pg"></div>
+    <div class="acts"><button id="pa"></button><button id="px"></button></div>
+  </div></div>
+
+  <!-- zones -->
+  <div class="ov" id="zn"><div class="dlg">
+    <h2>CLASSROOM ZONES <small>Zonas del salón</small></h2>
+    <div class="grid" id="zg"></div>
+    <div class="acts"><button id="zx"></button></div>
+  </div></div>
+
+  <!-- spotlight -->
+  <div class="ov" id="sp"><div class="dlg rb">
+    <div id="spin"><div id="spv"></div>
+      <div id="spt"><div id="spk"></div><div id="spen" class="rbw"></div><div id="spes" class="es"></div><div id="spd"></div></div></div>
+    <div class="acts"><button id="spp"></button><button id="spn"></button><button id="spx"></button></div>
+  </div></div>
+
+  <!-- timer -->
+  <div class="ov" id="tm"><div class="dlg">
+    <div id="tmen" class="rbw"></div><div id="tmes" class="es"></div>
+    <div id="tmb"><div id="tmpic"></div>
+      <div id="pie"><svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="94" fill="#fff" stroke="#5C3A21" stroke-width="5"/><circle id="pied" cx="100" cy="100" r="44" fill="none" stroke-width="88" transform="rotate(-90 100 100)"/><circle cx="100" cy="100" r="94" fill="none" stroke="#5C3A21" stroke-width="5"/></svg><div id="tmt"></div></div>
+      <div id="tmside"></div></div>
+    <div id="tmok"></div>
+    <div class="acts"><button id="tmm"></button><button id="tp"></button><button id="trs"></button><button id="tmp"></button><button id="tx"></button></div>
+    <div class="conf" id="conf"></div>
+  </div></div>
+
+  <!-- teacher panel -->
+  <div class="ov" id="set"><div class="dlg">
+    <h2>TEACHER PANEL <small>Panel de la maestra</small></h2>
+    <div id="tabs"></div>
+    <div id="setb"></div>
+    <div class="acts"><button id="sx"></button><button id="sz"></button></div>
+    <div class="hint" style="text-align:center">Changes are saved right away · Los cambios se guardan al instante</div>
+  </div></div>
+
+  <!-- activity change card -->
+  <div class="ov" id="tr"><div class="dlg rb">
+    <div id="trk"></div>
+    <div id="trrow"><div class="cast" id="tc1"></div><img id="trimg" alt=""><div class="cast c2" id="tc2"></div></div>
+    <div id="tren" class="rbw"></div><div id="tres" class="es"></div><div id="trm"></div>
+    <div class="acts"><button id="trx"></button></div>
+  </div></div>
+
+  <!-- welcome -->
+  <div class="ov show" id="wel"><div class="dlg rb">
+    <div class="brand" id="wbrand"></div>
+    <h1 id="wh" class="rbw"></h1>
+    <div id="wes">Bienvenidos</div>
+    <div id="wgr"></div>
+    <div id="wmid"><div class="cast a-wave" id="wc1"></div><img id="wart" alt=""><div class="cast c2 a-wave" id="wc2"></div></div>
+    <button id="go"></button>
+    <div class="hint" style="margin-top:30px">Press <kbd>OK</kbd> on the remote · Presiona <kbd>OK</kbd> en el control</div>
+  </div></div>
+
+  <div id="toast"></div>
+  <div id="dim"></div>
+</div>
+</div>
